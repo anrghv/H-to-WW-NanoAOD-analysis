@@ -14,39 +14,14 @@ The analysis strategy follows the approach described in the CMS H→WW measureme
 ([Tumasyan et al., _Eur. Phys. J. C_ **83**, 667, 2023](https://doi.org/10.1140/epjc/s10052-023-11632-6)),
 adapted for CMS Open Data using the Scikit-HEP Python ecosystem.
 
----
-
 ## Key Analysis Properties
 
-<div class="grid cards" markdown>
-
-- :material-lightning-bolt:{ .lg .middle } **Centre-of-mass energy**
-
-  ***
-
-  $\sqrt{s} = 13\,\text{TeV}$
-
-- :material-calendar:{ .lg .middle } **Data-taking period**
-
-  ***
-
-  2016 Ultra-Legacy (Run periods G–H)
-
-- :material-database:{ .lg .middle } **Integrated luminosity**
-
-  ***
-
-  $\mathcal{L}_{\text{int}} \approx 16.39\,\text{fb}^{-1}$
-
-- :material-atom:{ .lg .middle } **Signal process**
-
-  ***
-
-  $ggH \rightarrow W^+W^- \rightarrow e\nu\,\mu\nu$
-
-</div>
-
----
+| Quantity              | Value                                               |
+| --------------------- | --------------------------------------------------- |
+| Centre-of-mass energy | $\sqrt{s}=13~\mathrm{TeV}$                          |
+| Data-taking period    | 2016 Ultra-Legacy (Run periods G–H)                 |
+| Integrated luminosity | $\mathcal{L}_{\mathrm{int}}=16.39~\mathrm{fb}^{-1}$ |
+| Signal process        | $ggH \rightarrow W^+W^- \rightarrow e\nu\mu\nu$     |
 
 ## Pre-Requisite
 
@@ -77,71 +52,14 @@ jupyter lab HWW_analysis.ipynb
 
 ## Documentation Guide
 
-<div class="grid cards" markdown>
-
-- :material-book-open-variant:{ .lg .middle } **Physics Background**
-
-  ***
-
-  CMS Open Data, Higgs signal, and background processes.
-
-  [:octicons-arrow-right-24: Theory](theory/higgs-physics.md)
-
-- :material-database:{ .lg .middle } **Datasets**
-
-  ***
-
-  Sample list, cross-sections, and MC normalisation.
-
-  [:octicons-arrow-right-24: Datasets](datasets/data-and-mc.md)
-
-- :material-wrench:{ .lg .middle } **Software Framework**
-
-  ***
-
-  The Scikit-HEP ecosystem explained.
-
-  [:octicons-arrow-right-24: Framework](software/ecosystem.md)
-
-- :material-download:{ .lg .middle } **Installation & Setup**
-
-  ***
-
-  Environment setup and verification.
-
-  [:octicons-arrow-right-24: Installation](getting-started/installation.md)
-
-<!-- -   :material-folder-open:{ .lg .middle } **Repository Architecture**
-
-    ---
-    Directory structure and module overview.
-
-    [:octicons-arrow-right-24: Architecture](getting-started/repository-structure.md) -->
-
-- :material-chart-timeline-variant:{ .lg .middle } **Analysis Methodology**
-
-  ***
-
-  Analysis Methodology and jupyter notebook.
-
-  [:octicons-arrow-right-24: Methodology](analysis/methodology.md)
-
-<!-- -   :material-play-circle-outline:{ .lg .middle } **Execution Guide**
-
-    ---
-    Running notebooks and Dask batch jobs.
-
-    [:octicons-arrow-right-24: Execution](analysis/interactive-execution.md) -->
-
-- :material-chart-bar:{ .lg .middle } **Statistical Inference**
-
-  ***
-
-  CMS Combine: datacards, signal strength.
-
-  [:octicons-arrow-right-24: Combine](combine/statistical-inference.md)
-
-</div>
+| Section                                                    | Description                                            | Link                                                                      |
+| ---------------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------------------------- |
+| :material-book-open-variant: **Physics Background**        | CMS Open Data, Higgs signal, and background processes. | [:octicons-arrow-right-24: Theory](theory/higgs-physics.md)               |
+| :material-database: **Datasets**                           | Sample list, cross-sections, and MC normalisation.     | [:octicons-arrow-right-24: Datasets](datasets/data-and-mc.md)             |
+| :material-wrench: **Software Framework**                   | The Scikit-HEP ecosystem explained.                    | [:octicons-arrow-right-24: Framework](software/ecosystem.md)              |
+| :material-download: **Installation & Setup**               | Environment setup and verification.                    | [:octicons-arrow-right-24: Installation](getting-started/installation.md) |
+| :material-chart-timeline-variant: **Analysis Methodology** | Analysis methodology and Jupyter notebook.             | [:octicons-arrow-right-24: Methodology](analysis/methodology.md)          |
+| :material-chart-bar: **Statistical Inference**             | CMS Combine: datacards, signal strength.               | [:octicons-arrow-right-24: Combine](combine/statistical-inference.md)     |
 
 ---
 
